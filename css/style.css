@@ -1,0 +1,41 @@
+/* Nav Part Css Start */
+.header-background{
+    background-color: #FFFBF0;
+    padding-bottom: 100px;
+}
+.penguine-nav img{
+width: 40%;
+}
+.penguine-nav ul li {
+    padding: 0 10px;
+    font-weight: 600;
+}
+.penguine-nav .nav-item a{
+    color: black!important;
+}
+/* Nav Part Css End */
+/* Banner part css Start */
+.panda-top-banner img{
+    width: 70%;
+}
+/* Banner part css End */
+/* Product Part css start */
+.penguine-product-card{
+    border: none;
+    border-radius: 1.5em!important;
+    height: 32.5em;
+}
+.product-image{
+    margin: .2em;
+    padding: 2em 3em;
+    height: 20em;
+    border-radius: 1em;
+    background-color: #F1F1F1;
+}
+.product-image img{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+/* Product Part css end */
+
