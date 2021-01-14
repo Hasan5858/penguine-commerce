@@ -5,13 +5,16 @@
 }
 .penguine-nav img{
 width: 40%;
+height: 100%;
+display: block;
 }
-.penguine-nav ul li {
+.penguine-nav .navbar-nav a{
     padding: 0 10px;
     font-weight: 600;
-}
-.penguine-nav .nav-item a{
     color: black!important;
+}
+.penguine-nav-item{
+    margin-left: auto;
 }
 /* Nav Part Css End */
 /* Banner part css Start */
