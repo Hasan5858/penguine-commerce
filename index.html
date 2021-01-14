@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguine Commerce</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -33,10 +36,10 @@
                 <div class="col-md-5 pb-3">
                     <h1>BE THE PANGUINE <br> <span>OF WINTER</span></h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    <button class="btn btn-success">Buy Now</button>
+                    <button class="btn penguine-button"><i class="fas fa-shopping-cart"></i> Buy Now</button>
                 </div>
-                <div class="col-md-7">
-                    <img src="images/logo_icon/banner-1.png" alt="">
+                <div class="col-md-7 d-flex justify-content-center align-items-center">
+                    <img class="img-fluid" src="images/logo_icon/banner-1.png" alt="">
                 </div>
             </div>
         </div>
@@ -47,18 +50,33 @@
         <!-- Womens Product part start -->
         <div class="row">
             <h1 class="pt-5">WOMEN JACKET</h1>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-3">
+                <div class="col">
+                  <div class="card shadow-sm p-3 mb-5 bg-white rounded penguine-product-card">
+                      <div class="product-image">
+                        <img src="images/women/women-jacket-1.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body penguine-card-title">
+                      <h5 class="card-title">Yollow Coat Jacket</h5>
+                      <p class="card-text"><small>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</small></p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <h1>$200</h1>
+                        <button class="btn penguine-button"><i class="fas fa-shopping-cart"></i> Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <div class="col">
                   <div class="card shadow-sm p-3 mb-5 bg-white rounded penguine-product-card">
                     <div class="product-image">
-                        <img src="Images/women/women-jacket-1.png" class="card-img-top" alt="...">
+                        <img src="images/women/women-jacket-2.png" class="card-img-top" alt="...">
                     </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="card-body penguine-card-title">
+                      <h5 class="card-title">Ladies Jacket</h5>
+                      <p class="card-text"><small>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</small></p>
                       <div class="d-flex justify-content-between align-items-center">
                         <h1>$200</h1>
-                        <button class="btn btn-primary">Buy Now</button>
+                        <button class="btn penguine-button"><i class="fas fa-shopping-cart"></i> Buy Now</button>
                       </div>
                     </div>
                     
@@ -67,30 +85,14 @@
                 <div class="col">
                   <div class="card shadow-sm p-3 mb-5 bg-white rounded penguine-product-card">
                     <div class="product-image">
-                        <img src="Images/women/women-jacket-2.png" class="card-img-top" alt="...">
+                        <img src="images/women/women-jacket-3.png" class="card-img-top" alt="...">
                     </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">TLorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="card-body penguine-card-title">
+                      <h5 class="card-title">Womans Lather Jacket</h5>
+                      <p class="card-text"><small>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</small></p>
                       <div class="d-flex justify-content-between align-items-center">
                         <h1>$200</h1>
-                        <button class="btn btn-primary">Buy Now</button>
-                      </div>
-                    </div>
-                    
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card shadow-sm p-3 mb-5 bg-white rounded penguine-product-card">
-                    <div class="product-image">
-                        <img src="Images/women/women-jacket-3.png" class="card-img-top" alt="...">
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <h1>$200</h1>
-                        <button class="btn btn-primary">Buy Now</button>
+                        <button class="btn penguine-button"><i class="fas fa-shopping-cart"></i> Buy Now</button>
                       </div>
                     </div>
                     
@@ -102,18 +104,18 @@
         <!-- Man Product part start -->
         <div class="row">
             <h1 class="pt-5">MAN JACKET</h1>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-3">
                 <div class="col">
                   <div class="card shadow-sm p-3 mb-5 bg-white rounded penguine-product-card">
                     <div class="product-image">
-                        <img src="Images/man/man-jacket-1.png" class="card-img-top" alt="...">
+                        <img src="images/man/man-jacket-1.png" class="card-img-top" alt="...">
                     </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="card-body penguine-card-title">
+                      <h5 class="card-title">snowboard Jacket Mans</h5>
+                      <p class="card-text"><small>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</small></p>
                       <div class="d-flex justify-content-between align-items-center">
                         <h1>$200</h1>
-                        <button class="btn btn-primary">Buy Now</button>
+                        <button class="btn penguine-button"><i class="fas fa-shopping-cart"></i> Buy Now</button>
                       </div>
                     </div>
                     
@@ -122,14 +124,14 @@
                 <div class="col">
                   <div class="card shadow-sm p-3 mb-5 bg-white rounded penguine-product-card">
                     <div class="product-image">
-                        <img src="Images/man/man-jacket-2.png" class="card-img-top" alt="...">
+                        <img src="images/man/man-jacket-2.png" class="card-img-top" alt="...">
                     </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">TLorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="card-body penguine-card-title">
+                      <h5 class="card-title">Man Lather Jacket</h5>
+                      <p class="card-text"><small>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</small></p>
                       <div class="d-flex justify-content-between align-items-center">
                         <h1>$200</h1>
-                        <button class="btn btn-primary">Buy Now</button>
+                        <button class="btn penguine-button"><i class="fas fa-shopping-cart"></i> Buy Now</button>
                       </div>
                     </div>
                     
@@ -138,14 +140,14 @@
                 <div class="col">
                   <div class="card shadow-sm p-3 mb-5 bg-white rounded penguine-product-card">
                     <div class="product-image">
-                        <img src="Images/man/man-jacket-3.png" class="card-img-top" alt="...">
+                        <img src="images/man/man-jacket-3.png" class="card-img-top" alt="...">
                     </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="card-body penguine-card-title">
+                      <h5 class="card-title">Man Casual Jacket</h5>
+                      <p class="card-text"><small>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</small></p>
                       <div class="d-flex justify-content-between align-items-center">
                         <h1>$200</h1>
-                        <button class="btn btn-primary">Buy Now</button>
+                        <button class="btn penguine-button"><i class="fas fa-shopping-cart"></i> Buy Now</button>
                       </div>
                     </div>
                     
@@ -154,9 +156,293 @@
               </div>
         </div>
         <!-- Man Product part End -->
-    </main>
     <!-- product part end -->
-
+            <!-- About part start -->
+    <section class="container mt-5">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="card mb-3 penguine-about-part shadow-sm bg-white rounded">
+            <div class="row g-0">
+              <div class="col-md-4 d-flex justify-content-center align-items-center">
+                <img src="images/logo_icon/icon-1.png" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body penguine-card-title">
+                  <h5 class="card-title">Find The Perfect Fit</h5>
+                  <p class="card-text">Everybody is different, which is why we offer styles for every body.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 penguine-about-part shadow-sm bg-white rounded">
+            <div class="row g-0">
+              <div class="col-md-4 d-flex justify-content-center align-items-center">
+                <img src="images/logo_icon/icon-2.png" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body penguine-card-title">
+                  <h5 class="card-title">Free Exchanges</h5>
+                  <p class="card-text">One of the many reasons you can shop with peace of mind.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 penguine-about-part shadow-sm bg-white rounded">
+            <div class="row g-0">
+              <div class="col-md-4 d-flex justify-content-center align-items-center">
+                <img src="images/logo_icon/icon-3.png" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body penguine-card-title">
+                  <h5 class="card-title">Contact Our Seller</h5>
+                  <p class="card-text">They are here to help you. That's quite literally what we pay them for</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-7">
+          <img class="w-100" src="images/logo_icon/banner-2.png" alt="">
+        </div>
+      </div>
+    </section>
+<!-- About part End -->
+<!-- Latest Product Part Start -->
+<section class="mt-5">
+  <div class="row">
+    <div class="col-md-3 col-sm-6">
+      <h2 style="color: darkred;">LATEST</h2>
+      <div class="card mb-3 latest-card">
+        <div class="row g-0">
+          <div class="col-md-4 d-flex justify-content-center align-items-center latest-card-image">
+            <img src="images/man/man-jacket-1.png" alt="..." width="80" height="80">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h5>$39</h5>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 latest-card">
+        <div class="row g-0">
+          <div class="col-md-4 d-flex justify-content-center align-items-center latest-card-image">
+            <img src="images/man/man-jacket-2.png" alt="..." width="80" height="80">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h5>$39</h5>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 latest-card">
+        <div class="row g-0">
+          <div class="col-md-4 d-flex justify-content-center align-items-center latest-card-image">
+            <img src="images/man/man-jacket-3.png" alt="..." width="80" height="80">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h5>$39</h5>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <h2 style="color: darkblue;">BEST SELLING</h2>
+      <div class="card mb-3 latest-card">
+        <div class="row g-0">
+          <div class="col-md-4 d-flex justify-content-center align-items-center latest-card-image">
+            <img src="images/women/women-jacket-1.png" alt="..." width="80" height="80">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h5>$39</h5>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 latest-card">
+        <div class="row g-0">
+          <div class="col-md-4 d-flex justify-content-center align-items-center latest-card-image">
+            <img src="images/women/women-jacket-2.png" alt="..." width="80" height="80">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h5>$39</h5>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 latest-card">
+        <div class="row g-0">
+          <div class="col-md-4 d-flex justify-content-center align-items-center latest-card-image">
+            <img src="images/women/women-jacket-3.png" alt="..." width="80" height="80">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h5>$39</h5>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <h2 style="color: crimson;">TOP RATED</h2>
+      <div class="card mb-3 latest-card">
+        <div class="row g-0">
+          <div class="col-md-4 d-flex justify-content-center align-items-center latest-card-image">
+            <img src="images/man/man-jacket-1.png" alt="..." width="80" height="80">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h5>$39</h5>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 latest-card">
+        <div class="row g-0">
+          <div class="col-md-4 d-flex justify-content-center align-items-center latest-card-image">
+            <img src="images/man/man-jacket-2.png" alt="..." width="80" height="80">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h5>$39</h5>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 latest-card">
+        <div class="row g-0">
+          <div class="col-md-4 d-flex justify-content-center align-items-center latest-card-image">
+            <img src="images/man/man-jacket-3.png" alt="..." width="80" height="80">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h5>$39</h5>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <h2 style="color: brown;">SALES</h2>
+      <div class="card mb-3 latest-card">
+        <div class="row g-0">
+          <div class="col-md-4 d-flex justify-content-center align-items-center latest-card-image">
+            <img src="images/women/women-jacket-1.png" alt="..." width="80" height="80">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h5>$39</h5>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 latest-card">
+        <div class="row g-0">
+          <div class="col-md-4 d-flex justify-content-center align-items-center latest-card-image">
+            <img src="images/women/women-jacket-2.png" alt="..." width="80" height="80">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h5>$39</h5>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 latest-card">
+        <div class="row g-0">
+          <div class="col-md-4 d-flex justify-content-center align-items-center latest-card-image">
+            <img src="images/women/women-jacket-3.png" alt="..." width="80" height="80">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h5>$39</h5>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Latest Product Part End -->
+</main>
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
